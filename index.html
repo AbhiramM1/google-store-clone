@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Store for Google Made Devices & Accessories</title>
+    <link rel="icon" type="images/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bb">
+            <div class="container-fluid">
+                    <button class="navbar-toggler border-0 col-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars" style="color: #787878;"></i>
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                      </button>
+                     <div style="margin:0px 20px;"><a class=""href="#"><img src="images/logo.png" width="24px" height="24px"></a></div>
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo03" >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-hover" style="display: flex; justify-content:left">
+                          <li class="nav-item">
+                            <a id="color-change" class="nav-link color-change" aria-current="page" href="#">Phones</a>
+                          </li>
+                          <li class="nav-item">
+                            <a id="color-change" class="nav-link" aria-current="page" href="#">Earbuds</a>
+                          </li>
+                          <li class="nav-item">
+                            <a id="color-change" class="nav-link" aria-current="page" href="#">Watches</a>
+                          </li>
+                          <li class="nav-item">
+                            <a id="color-change" class="nav-link" aria-current="page" href="#">Accessories</a>
+                          </li>
+                        </ul>
+                        </div>
+                        <div class="nav-icons col-8">
+                        <button class="border-0 mx-3 nav-icons" onclick="alrt()"><i class="fas fa-search"></i></button>
+                        <button class="border-0 mx-3 nav-icons" onclick="alrt()"><i class="fa-solid fa-question hide"></i></button>
+                        <button class="border-0 mx-3 nav-icons" onclick="alrt()"><i class="fa-solid fa-cart-shopping"></i></button>
+                        <button class="border-0 rounded-circle px-1 mx-3 nav-icons" onclick="alrt()"><i class="fa-solid fa-user"></i></button>
+                        </div>
+            </div>
+          </nav>
+    </header>
+   <main>
+    <div class="hero-section">
+        <div class="hero-section-text">
+            <p class="hero-heading text-lg-center">Engineered by Google. For all that you can do</p>
+            <p>Meet the new Pixel phones, featuring Google AI and the most advanced Pixel Cameras yet.</p>
+            <button class="hero-btn select" id="demo" onclick="clicked()">Browse phones</button>
+        </div>
+        <div class="hero-section-image"></div>
+    </div>
+    <div class="main-content">
+        <p class="content-heading">Popular on the Google Store.</p>
+                <div class="card-holder" style="display: flex;">
+                    <div class="card">
+                        <img src="images/pixel 8 pro.webp" class="card-img-top" alt="pixel 8 pro">
+                        <div class="card-body">
+                            <h5 class="card-title">Pixel 8 pro</h5>
+                        </div>
+                    </div>  
+                    <div class="card">
+                        <img src="images/pixel 8.webp" class="card-img-top" alt="Pixel 8">
+                        <div class="card-body">
+                            <h5 class="card-title">Pixel 8</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/pixel 7.webp" class="card-img-top" alt="Pixel 7">
+                        <div class="card-body">
+                            <h5 class="card-title">Pixel 7</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/pixel-watch (1).webp" class="card-img-top" alt="Pixel Watch 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Pixel Watch 2</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/cases.webp" class="card-img-top" alt="cases">
+                        <div class="card-body">
+                            <h5 class="card-title">Pixel Cases</h5>
+                        </div>
+                    </div>
+                </div> 
+     </div>
+     <div class="hero-section-2">
+        <div class="hero-section-image-2"></div>
+        <div class="hero-section-text-2">
+            <p style="font-weight: 650;">Google Pixel Watch 2</p>
+            <pre class="hero-heading-2" style="font-size: 42px;">Help by Google.
+Health by FitBit.
+Made for you.</pre>
+            <p>Get personalised help for your health, safety and productivity<p>
+            <button class="hero-btn-2 select">Learn More</button>
+        </div>
+    </div>
+    <div class="container-earpod">
+        <div class="content-earpod">
+            <h2 class="title-earpod">Pixel Buds Pro</h2>
+            <pre class="text-earpod">Premium sounds,
+pristine calls.
+            </pre>
+            <button class="hero-btn-2 select" id="grey" onclick="greyed()" >Learn More</button>
+            <div class="earpod-img" style="background-image: url(images/pixel\ buds\ a.webp);"></div>
+        </div>
+        <div class="content-earpod">
+            <h2 class="title-earpod">Pixel Buds A-series</h2>
+            <pre class="text-earpod"> Rich sound,always. </pre>
+            </pre>
+            <br><br><br><br><br>
+            <button class="hero-btn-2 select" id="grey1" onclick="greyed1()" >Learn More</button>
+            <div class="earpod-img" style="background-image: url(images/pixel\ buds\ pro.webp);"></div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <p><i class="fa-solid fa-shop" style="color: #cd00f7; font-size:20px"></i></p>
+        <p class="title-earpod">Google Pixel Walk-in Centres.</p>
+        <button class="hero-btn-2 select">Learn More</button>
+    </div>
+   </main>
+   <div class="spacer"></div>
+   <footer>
+    <div class="footnotes">
+        <ol>
+            <li><p>
+                Works with most phones running Android 9.0 or newer and requires a Google Account, Google Pixel Watch app and Internet access. Some features require a Fitbit mobile app and/or a paid subscription. Google apps and services are not available in all countries or languages. See g.co/pixelwatch/specs for technical and device specifications.</p></li>
+                <li><p>Call quality depends on signal strength, environment, network traffic and many other factors. Actual results may vary.</p></li>
+        </ol>
+    </div>
+   
+   <div class="spacer"></div>
+   <div class="footer-1">
+        <div class="spacing-2"></div>
+        <div class="footer content">
+            <p class="select-2">Country avalibility</p>
+            <p class="select-2">Pixel walk-in centres</p>
+            <p class="select-2">Disability support</p>
+        </div>
+        <div class="footer content">
+            <p class="select-2">Help Centre</p>
+            <p class="select-2">Contact us</p>
+            <p class="select-2">Device recycling</p>
+        </div>
+   </div>
+   <hr>
+   <div class="footer-2">
+        <div class="footer-icons">
+            <div class="icon" style="background-image: url('images/twitter.png');"></div>
+            <div class="icon" style="background-image: url('images/instagram.png');"></div>
+            <div class="icon" style="background-image: url('images/facebook.png');"></div>
+            <div class="icon" style="background-image: url('images/Youtube.png');"></div>
+            <div class="icon" style="background-image: url('images/tik-tok.png');"></div>
+            
+        </div>
+        <div class="footer-text">
+            <div class="country">
+                <img src="images/india.png" width="30px" height="30px">
+            </div>
+            <div><a class="select-2">India</a></div>
+            <div><a class="select-2">Privacy</a></div>
+            <div><a class="select-2">Google Nest Commitment to Privacy</a></div>
+            <div><a class="select-2">Sales Terms</a></div>
+            <div><a class="select-2">Terms of Service</a></div>
+        </div>
+    </div>
+</footer>
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="main.js">
+    </script>
+</body>
+</html>
